@@ -38,6 +38,14 @@ export default function SentenceInput({ sentence, userInput, answer, isWrong, is
     }
   };
 
+  const handleBlur = () => {
+    if (inputRef.current && !isCorrect) {
+      setTimeout(() => {
+        inputRef.current.focus();
+      }, 0);
+    }
+  };
+
   return (
     <h2 className={`text-lg sm:text-xl md:text-2xl lg:text-3xl ${isWrong ? 'animate-shake' : ''}`}>
       {parts[0]}
@@ -56,6 +64,7 @@ export default function SentenceInput({ sentence, userInput, answer, isWrong, is
           value={userInput}
           onChange={handleInputChange}
           onKeyDown={handleKeyDown}
+          onBlur={handleBlur}
           className="absolute top-0 left-0 w-full h-full opacity-0 cursor-default"
           style={{ fontSize: '16px' }}
           autoComplete="off"
