@@ -5,13 +5,37 @@
       "verb": "SPEAK",
       "translation": "FALAR / CONVERSAR",
       "sentences": [
-        { "type": "simple_past", "sentence": "Yesterday, she __ to her friend.", "answer": "spoke", "explanation": "'spoke' is used for actions that were completed in the past." },
-        { "type": "past_participle", "sentence": "I have never __ to him before.", "answer": "spoken", "explanation": "'spoken' is often used after 'have' or 'has' to talk about past experiences." }
+        {
+          "type": "simple_past",
+          "sentence": "Yesterday, she __ to her friend.",
+          "answer": "spoke",
+          "explanation": "'spoke' is used for actions that were completed in the past."
+        },
+        {
+          "type": "past_participle",
+          "sentence": "I have never __ to him before.",
+          "answer": "spoken",
+          "explanation": "'spoken' is often used after 'have' or 'has' to talk about past experiences."
+        }
       ]
     },
-    { "verb": "GO", "translation": "IR", "sentences": [
-        { "type": "simple_past", "sentence": "He __ to the store this morning.", "answer": "went", "explanation": "'went' is the simple past form, used for actions that happened and finished in the past." },
-        { "type": "past_participle", "sentence": "She has __ to Brazil three times.", "answer": "gone", "explanation": "Use 'gone' with 'has' or 'have' to describe a completed action." }
-    ]}
+    {
+      "verb": "GO",
+      "translation": "IR",
+      "sentences": [
+        {
+          "type": "simple_past",
+          "sentence": "He __ to the store this morning.",
+          "answer": "went",
+          "explanation": "'went' is the simple past form, used for actions that happened and finished in the past."
+        },
+        {
+          "type": "past_participle",
+          "sentence": "She has __ to Brazil three times.",
+          "answer": "gone",
+          "explanation": "Use 'gone' with 'has' or 'have' to describe a completed action."
+        }
+      ]
+    }
   ]
 }

@@ -1,10 +1,11 @@
 import { useState, useEffect, useCallback, useRef } from 'react';
+import { config } from '../config.js';
 
 // --- Constants ---
-// The timer bar's maximum value in ms (8 seconds)
-const MAX_TIME = 10000; 
-// Time added for a correct answer (2.5 seconds)
-const TIME_GAIN_ON_CORRECT = 7000; 
+// The timer bar's maximum value in ms
+const MAX_TIME = config.MAX_TIME; 
+// Time added for a correct answer
+const TIME_GAIN_ON_CORRECT = config.TIME_GAIN_ON_CORRECT;
 
 /**
  * Custom hook to manage the entire state and logic of the Irregular Verb Game.
@@ -19,7 +20,7 @@ export const useGameLogic = (languageData) => {
   const [highScore, setHighScore] = useState(() => {
     // Safely get high score from localStorage
     try {
-      const savedScore = localStorage.getItem('verbGameHighScore');
+      const savedScore = localStorage.getItem(config.HIGH_SCORE_KEY);
       return savedScore ? parseInt(savedScore, 10) : 0;
     } catch (error) {
       console.error("Could not read high score from localStorage", error);
@@ -108,7 +109,7 @@ export const useGameLogic = (languageData) => {
   // Handles the logic for a correct answer.
   const handleCorrectAnswer = () => {
     setIsCorrect(true);
-    setScore(prev => prev + 5);
+    setScore(prev => prev + config.SCORE_CORRECT);
     setTimeRemaining(prev => Math.min(MAX_TIME, prev + TIME_GAIN_ON_CORRECT));
     
     // Pause briefly to show success feedback before moving on
@@ -117,13 +118,13 @@ export const useGameLogic = (languageData) => {
       if (gameActive && !isGameOver) { 
         nextChallenge();
       }
-    }, 800);
+    }, config.SUCCESS_DELAY);
   };
 
   // Handles the logic for an incorrect answer.
   const handleIncorrectAnswer = () => {
     setIsWrong(true);
-    setScore(prev => Math.max(0, prev - 3));
+    setScore(prev => Math.max(0, prev - config.SCORE_INCORRECT));
     // Hide any previous explanation when a new mistake is made
     setShowExplanation(false); 
   };
@@ -131,7 +132,7 @@ export const useGameLogic = (languageData) => {
   // Handles the logic for showing a hint.
   const handleShowHint = () => {
       if (!showHint) {
-          setScore(prev => Math.max(0, prev - 5));
+          setScore(prev => Math.max(0, prev - config.SCORE_HINT));
           setShowHint(true);
       }
   };
@@ -175,7 +176,7 @@ export const useGameLogic = (languageData) => {
           if (score > highScore) {
             setHighScore(score);
             try {
-                localStorage.setItem('verbGameHighScore', score.toString());
+                localStorage.setItem(config.HIGH_SCORE_KEY, score.toString());
             } catch (error) {
                 console.error("Could not save high score to localStorage", error);
             }
