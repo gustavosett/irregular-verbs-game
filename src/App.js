@@ -10,7 +10,7 @@ export default function App() {
   const [languageData, setLanguageData] = useState(initialData);
 
   useEffect(() => {
-    fetch(`/languages/${language}.json`)
+    fetch(`${process.env.PUBLIC_URL}/languages/${language}.json`)
       .then(res => res.json())
       .then(data => setLanguageData(data))
       .catch(err => console.error("Failed to load language data:", err));
