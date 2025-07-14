@@ -9,7 +9,7 @@ const WavingCharacter = () => (
 
 export default function StartScreen({ game, languageName, onSelectLanguage, selectedLanguage }) {
   return (
-    <div className="flex flex-col items-center justify-start min-h-screen p-4 pt-20 text-center">
+    <div className="flex flex-col items-center justify-start h-screen p-4 pt-20 text-center overflow-hidden">
       <WavingCharacter />
       <h1 className="text-4xl font-extrabold">Irregular Verb Game</h1>
       {/* <p className="mt-2 text-xl text-duo-gray-dark">{languageName}</p> */}
