@@ -1,7 +1,7 @@
 {
   "name": "irregular-verbs-game",
   "version": "0.1.0",
-  "homepage": "https://gustavosett.github.io/irregular-verbs-game",
+  "homepage": "https://gustavosett.dev",
   "private": true,
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
