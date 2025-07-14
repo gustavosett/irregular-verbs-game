@@ -1,0 +1,2040 @@
+{
+    "name": "Español",
+    "verbs": [
+      {
+        "verb": "SPEAK",
+        "translation": "HABLAR / CONVERSAR",
+        "sentences": [
+          {
+            "type": "simple_past",
+            "sentence": "Yesterday, she __ to her friend.",
+            "answer": "spoke",
+            "explanation": "'spoke' is used for actions that were completed in the past."
+          },
+          {
+            "type": "past_participle",
+            "sentence": "I have never __ to him before.",
+            "answer": "spoken",
+            "explanation": "'spoken' is often used after 'have' or 'has' to talk about past experiences."
+          }
+        ]
+      },
+      {
+        "verb": "GO",
+        "translation": "IR",
+        "sentences": [
+          {
+            "type": "simple_past",
+            "sentence": "He __ to the store this morning.",
+            "answer": "went",
+            "explanation": "'went' is the simple past form, used for actions that happened and finished in the past."
+          },
+          {
+            "type": "past_participle",
+            "sentence": "She has __ to Brazil three times.",
+            "answer": "gone",
+            "explanation": "Use 'gone' with 'has' or 'have' to describe a completed action."
+          }
+        ]
+      },
+      {
+        "verb": "BE",
+        "translation": "SER / ESTAR",
+        "sentences": [
+          {
+            "type": "simple_past",
+            "sentence": "She __ happy yesterday.",
+            "answer": "was",
+            "explanation": "'was' is the simple past form for 'I', 'he', 'she', and 'it'."
+          },
+          {
+            "type": "past_participle",
+            "sentence": "I have never __ to Canada.",
+            "answer": "been",
+            "explanation": "Use 'been' with 'has' or 'have' to talk about experiences or states of being in the past."
+          }
+        ]
+      },
+      {
+        "verb": "GIVE",
+        "translation": "DAR",
+        "sentences": [
+          {
+            "type": "simple_past",
+            "sentence": "He __ her a beautiful gift for her birthday.",
+            "answer": "gave",
+            "explanation": "'gave' is for the completed action of giving something in the past."
+          },
+          {
+            "type": "past_participle",
+            "sentence": "They have __ a lot of money to the charity.",
+            "answer": "given",
+            "explanation": "'given' is used with 'have' or 'has' to indicate that the action of giving happened at some point in the past."
+          }
+        ]
+      },
+      {
+        "verb": "SHINE",
+        "translation": "BRILLAR",
+        "sentences": [
+          {
+            "type": "simple_past",
+            "sentence": "The sun __ brightly all day yesterday.",
+            "answer": "shone",
+            "explanation": "'shone' is the simple past, describing a completed action of shining."
+          },
+          {
+            "type": "past_participle",
+            "sentence": "The moon has __ so brightly every night this week.",
+            "answer": "shone",
+            "explanation": "The past participle 'shone' is used with 'has' or 'have' to describe a past action with present relevance."
+          }
+        ]
+      },
+      {
+        "verb": "BEAT",
+        "translation": "GOLPEAR / VENCER",
+        "sentences": [
+          {
+            "type": "simple_past",
+            "sentence": "Our team __ the champions in the final game.",
+            "answer": "beat",
+            "explanation": "The simple past form 'beat' looks the same as the present tense but refers to a completed event."
+          },
+          {
+            "type": "past_participle",
+            "sentence": "He has never been __ in a match.",
+            "answer": "beaten",
+            "explanation": "Use 'beaten' with forms of 'be' or 'have' to describe the state of being defeated."
+          }
+        ]
+      },
+      {
+        "verb": "SHOOT",
+        "translation": "DISPARAR / FILMAR",
+        "sentences": [
+          {
+            "type": "simple_past",
+            "sentence": "The photographer __ hundreds of photos at the event.",
+            "answer": "shot",
+            "explanation": "'shot' is the simple past form for the action of shooting."
+          },
+          {
+            "type": "past_participle",
+            "sentence": "They have __ a new movie in the Amazon rainforest.",
+            "answer": "shot",
+            "explanation": "'shot' is also the past participle, used with 'have' or 'has'."
+          }
+        ]
+      },
+      {
+        "verb": "BECOME",
+        "translation": "CONVERTIRSE EN / LLEGAR A SER",
+        "sentences": [
+          {
+            "type": "simple_past",
+            "sentence": "She studied hard and __ a successful lawyer.",
+            "answer": "became",
+            "explanation": "'became' is used to describe a completed transformation or change in the past."
+          },
+          {
+            "type": "past_participle",
+            "sentence": "The caterpillar has __ a beautiful butterfly.",
+            "answer": "become",
+            "explanation": "The past participle 'become' is the same as the present tense and is used with 'has' or 'have'."
+          }
+        ]
+      },
+      {
+        "verb": "GROW",
+        "translation": "CRECER / CULTIVAR",
+        "sentences": [
+          {
+            "type": "simple_past",
+            "sentence": "My grandfather __ amazing vegetables in his garden.",
+            "answer": "grew",
+            "explanation": "'grew' is the simple past form for the action of growing."
+          },
+          {
+            "type": "past_participle",
+            "sentence": "This tree has __ so much in just one year.",
+            "answer": "grown",
+            "explanation": "Use 'grown' with 'has' or 'have' to talk about the result of a growth process."
+          }
+        ]
+      },
+      {
+        "verb": "SHOW",
+        "translation": "MOSTRAR / EXHIBIR",
+        "sentences": [
+          {
+            "type": "simple_past",
+            "sentence": "He __ me his collection of old coins.",
+            "answer": "showed",
+            "explanation": "'showed' is the regular simple past form for the verb 'show'."
+          },
+          {
+            "type": "past_participle",
+            "sentence": "The results have __ that the new method is effective.",
+            "answer": "shown",
+            "explanation": "'shown' is the past participle used with 'have' or 'has' to present evidence or results."
+          }
+        ]
+      },
+      {
+        "verb": "BEGIN",
+        "translation": "EMPEZAR / COMENZAR",
+        "sentences": [
+          {
+            "type": "simple_past",
+            "sentence": "The movie __ later than we expected.",
+            "answer": "began",
+            "explanation": "'began' is used for an action that started and finished in the past."
+          },
+          {
+            "type": "past_participle",
+            "sentence": "The construction of the new bridge has finally __.",
+            "answer": "begun",
+            "explanation": "Use 'begun' with 'has' or 'have' to indicate that an action has started."
+          }
+        ]
+      },
+      {
+        "verb": "HANG",
+        "translation": "COLGAR",
+        "sentences": [
+          {
+            "type": "simple_past",
+            "sentence": "She __ the picture on the wall.",
+            "answer": "hung",
+            "explanation": "'hung' is the simple past form for the action of suspending something."
+          },
+          {
+            "type": "past_participle",
+            "sentence": "The clothes have __ on the line all day.",
+            "answer": "hung",
+            "explanation": "The past participle 'hung' is used with 'have' or 'has' to describe a state of being suspended."
+          }
+        ]
+      },
+      {
+        "verb": "SHRINK",
+        "translation": "ENCOGER",
+        "sentences": [
+          {
+            "type": "simple_past",
+            "sentence": "My sweater __ in the wash.",
+            "answer": "shrank",
+            "explanation": "'shrank' is the simple past, used for a completed action of shrinking."
+          },
+          {
+            "type": "past_participle",
+            "sentence": "The clothes have __ to a tiny size.",
+            "answer": "shrunk",
+            "explanation": "Use 'shrunk' with 'have' or 'has' to describe the result of shrinking."
+          }
+        ]
+      },
+      {
+        "verb": "BEND",
+        "translation": "CURVAR / DOBLAR",
+        "sentences": [
+          {
+            "type": "simple_past",
+            "sentence": "He __ the rules to help his friend.",
+            "answer": "bent",
+            "explanation": "'bent' is the simple past form for the action of bending."
+          },
+          {
+            "type": "past_participle",
+            "sentence": "The metal bar was __ out of shape.",
+            "answer": "bent",
+            "explanation": "'bent' is also the past participle, often used with 'was' or 'has been'."
+          }
+        ]
+      },
+      {
+        "verb": "HAVE",
+        "translation": "TENER / POSEER",
+        "sentences": [
+          {
+            "type": "simple_past",
+            "sentence": "Yesterday, I __ a great time at the party.",
+            "answer": "had",
+            "explanation": "'had' is the simple past form of 'have' for all subjects."
+          },
+          {
+            "type": "past_participle",
+            "sentence": "She has __ many opportunities to travel.",
+            "answer": "had",
+            "explanation": "'had' is also the past participle, used after 'has' or 'have'."
+          }
+        ]
+      },
+      {
+        "verb": "SHUT",
+        "translation": "CERRAR",
+        "sentences": [
+          {
+            "type": "simple_past",
+            "sentence": "He __ the door quietly.",
+            "answer": "shut",
+            "explanation": "The simple past form 'shut' is the same as the present tense."
+          },
+          {
+            "type": "past_participle",
+            "sentence": "The window has been __ all day.",
+            "answer": "shut",
+            "explanation": "The past participle 'shut' is also the same, used with 'has been' or 'have'."
+          }
+        ]
+      },
+      {
+        "verb": "BET",
+        "translation": "APOSTAR",
+        "sentences": [
+          {
+            "type": "simple_past",
+            "sentence": "He __ all his money on the wrong horse.",
+            "answer": "bet",
+            "explanation": "The simple past form 'bet' is the same as the present tense."
+          },
+          {
+            "type": "past_participle",
+            "sentence": "I have never __ on a sports game before.",
+            "answer": "bet",
+            "explanation": "The past participle 'bet' is also the same, used with 'have' or 'has'."
+          }
+        ]
+      },
+      {
+        "verb": "HEAR",
+        "translation": "OÍR / ESCUCHAR",
+        "sentences": [
+          {
+            "type": "simple_past",
+            "sentence": "I __ a strange noise outside last night.",
+            "answer": "heard",
+            "explanation": "'heard' is the simple past form of 'hear'."
+          },
+          {
+            "type": "past_participle",
+            "sentence": "Have you __ the news about the new project?",
+            "answer": "heard",
+            "explanation": "'heard' is also the past participle, used with 'have' or 'has'."
+          }
+        ]
+      },
+      {
+        "verb": "SING",
+        "translation": "CANTAR",
+        "sentences": [
+          {
+            "type": "simple_past",
+            "sentence": "She __ beautifully at the concert.",
+            "answer": "sang",
+            "explanation": "'sang' is the simple past form for the action of singing."
+          },
+          {
+            "type": "past_participle",
+            "sentence": "He has __ in the choir for five years.",
+            "answer": "sung",
+            "explanation": "Use 'sung' with 'has' or 'have' to talk about a past action of singing."
+          }
+        ]
+      },
+      {
+        "verb": "BITE",
+        "translation": "MORDER",
+        "sentences": [
+          {
+            "type": "simple_past",
+            "sentence": "The dog __ the postman's leg.",
+            "answer": "bit",
+            "explanation": "'bit' is the simple past form of 'bite'."
+          },
+          {
+            "type": "past_participle",
+            "sentence": "She has been __ by a mosquito.",
+            "answer": "bitten",
+            "explanation": "Use 'bitten' as the past participle, often with 'has been' or 'have'."
+          }
+        ]
+      },
+      {
+        "verb": "HIDE",
+        "translation": "ESCONDER",
+        "sentences": [
+          {
+            "type": "simple_past",
+            "sentence": "The cat __ under the bed during the storm.",
+            "answer": "hid",
+            "explanation": "'hid' is the simple past form for the action of hiding."
+          },
+          {
+            "type": "past_participle",
+            "sentence": "He has __ the treasure where no one can find it.",
+            "answer": "hidden",
+            "explanation": "Use 'hidden' with 'has' or 'have' to describe the state of being concealed."
+          }
+        ]
+      },
+      {
+        "verb": "SINK",
+        "translation": "HUNDIR",
+        "sentences": [
+          {
+            "type": "simple_past",
+            "sentence": "The ship __ after hitting an iceberg.",
+            "answer": "sank",
+            "explanation": "'sank' is the simple past form for the action of sinking."
+          },
+          {
+            "type": "past_participle",
+            "sentence": "Many ships have __ in this area.",
+            "answer": "sunk",
+            "explanation": "Use 'sunk' with 'have' or 'has' to describe a completed action of sinking."
+          }
+        ]
+      },
+      {
+        "verb": "BLOW",
+        "translation": "SOPLAR",
+        "sentences": [
+          {
+            "type": "simple_past",
+            "sentence": "The wind __ the leaves off the trees.",
+            "answer": "blew",
+            "explanation": "'blew' is the simple past form for the action of blowing."
+          },
+          {
+            "type": "past_participle",
+            "sentence": "He has __ out all the candles on his birthday cake.",
+            "answer": "blown",
+            "explanation": "Use 'blown' with 'has' or 'have' to describe a completed action of blowing."
+          }
+        ]
+      },
+      {
+        "verb": "HIT",
+        "translation": "GOLPEAR / ALCANZAR",
+        "sentences": [
+          {
+            "type": "simple_past",
+            "sentence": "She __ the ball out of the park.",
+            "answer": "hit",
+            "explanation": "The simple past form 'hit' is the same as the present tense."
+          },
+          {
+            "type": "past_participle",
+            "sentence": "The car has been __ from behind.",
+            "answer": "hit",
+            "explanation": "The past participle 'hit' is also the same, used with 'has been' or 'have'."
+          }
+        ]
+      },
+      {
+        "verb": "SIT",
+        "translation": "SENTARSE",
+        "sentences": [
+          {
+            "type": "simple_past",
+            "sentence": "He __ on the bench and waited.",
+            "answer": "sat",
+            "explanation": "'sat' is the simple past form of 'sit'."
+          },
+          {
+            "type": "past_participle",
+            "sentence": "I have __ in this chair for hours.",
+            "answer": "sat",
+            "explanation": "'sat' is also the past participle, used with 'have' or 'has'."
+          }
+        ]
+      },
+      {
+        "verb": "BREAK",
+        "translation": "ROMPER / QUEBRAR",
+        "sentences": [
+          {
+            "type": "simple_past",
+            "sentence": "She __ the window by accident.",
+            "answer": "broke",
+            "explanation": "'broke' is the simple past form for the action of breaking something."
+          },
+          {
+            "type": "past_participle",
+            "sentence": "He has __ his promise.",
+            "answer": "broken",
+            "explanation": "Use 'broken' with 'has' or 'have' to describe the state of something that has been broken."
+          }
+        ]
+      },
+      {
+        "verb": "HOLD",
+        "translation": "SOSTENER / SUJETAR",
+        "sentences": [
+          {
+            "type": "simple_past",
+            "sentence": "She __ the baby in her arms.",
+            "answer": "held",
+            "explanation": "'held' is the simple past form for the action of holding."
+          },
+          {
+            "type": "past_participle",
+            "sentence": "The meeting will be __ in the conference room.",
+            "answer": "held",
+            "explanation": "'held' is also the past participle, used with 'be' to indicate an event's location or time."
+          }
+        ]
+      },
+      {
+        "verb": "SLEEP",
+        "translation": "DORMIR",
+        "sentences": [
+          {
+            "type": "simple_past",
+            "sentence": "The cat __ on the sofa all afternoon.",
+            "answer": "slept",
+            "explanation": "'slept' is the simple past form of 'sleep'."
+          },
+          {
+            "type": "past_participle",
+            "sentence": "I haven't __ well all week.",
+            "answer": "slept",
+            "explanation": "'slept' is also the past participle, used with 'have' or 'has'."
+          }
+        ]
+      },
+      {
+        "verb": "BRING",
+        "translation": "TRAER",
+        "sentences": [
+          {
+            "type": "simple_past",
+            "sentence": "She __ cookies to the party.",
+            "answer": "brought",
+            "explanation": "'brought' is the simple past form of 'bring'."
+          },
+          {
+            "type": "past_participle",
+            "sentence": "Have you __ your homework?",
+            "answer": "brought",
+            "explanation": "'brought' is also the past participle, used with 'have' or 'has'."
+          }
+        ]
+      },
+      {
+        "verb": "HURT",
+        "translation": "LASTIMAR / DOLER",
+        "sentences": [
+          {
+            "type": "simple_past",
+            "sentence": "He __ his knee when he fell.",
+            "answer": "hurt",
+            "explanation": "The simple past form 'hurt' is the same as the present tense."
+          },
+          {
+            "type": "past_participle",
+            "sentence": "I have never been __ so badly.",
+            "answer": "hurt",
+            "explanation": "The past participle 'hurt' is also the same, often used with 'have been'."
+          }
+        ]
+      },
+      {
+        "verb": "SLIDE",
+        "translation": "RESBALAR / DESLIZAR",
+        "sentences": [
+          {
+            "type": "simple_past",
+            "sentence": "The kids __ down the snowy hill.",
+            "answer": "slid",
+            "explanation": "'slid' is the simple past form of 'slide'."
+          },
+          {
+            "type": "past_participle",
+            "sentence": "The car has __ on the icy road.",
+            "answer": "slid",
+            "explanation": "'slid' is also the past participle, used with 'have' or 'has'."
+          }
+        ]
+      },
+      {
+        "verb": "BROADCAST",
+        "translation": "TRANSMITIR / DIFUNDIR",
+        "sentences": [
+          {
+            "type": "simple_past",
+            "sentence": "They __ the news live yesterday.",
+            "answer": "broadcast",
+            "explanation": "The simple past form 'broadcast' is the same as the present tense."
+          },
+          {
+            "type": "past_participle",
+            "sentence": "The speech was __ all over the world.",
+            "answer": "broadcast",
+            "explanation": "The past participle 'broadcast' is also the same, often used with 'was'."
+          }
+        ]
+      },
+      {
+        "verb": "KEEP",
+        "translation": "MANTENER / GUARDAR",
+        "sentences": [
+          {
+            "type": "simple_past",
+            "sentence": "She __ her promises.",
+            "answer": "kept",
+            "explanation": "'kept' is the simple past form of 'keep'."
+          },
+          {
+            "type": "past_participle",
+            "sentence": "He has __ all his old letters.",
+            "answer": "kept",
+            "explanation": "'kept' is also the past participle, used with 'have' or 'has'."
+          }
+        ]
+      },
+      {
+        "verb": "BUILD",
+        "translation": "CONSTRUIR",
+        "sentences": [
+          {
+            "type": "simple_past",
+            "sentence": "They __ a new house last year.",
+            "answer": "built",
+            "explanation": "'built' is the simple past form of 'build'."
+          },
+          {
+            "type": "past_participle",
+            "sentence": "The bridge was __ in 1990.",
+            "answer": "built",
+            "explanation": "'built' is also the past participle, often used with 'was'."
+          }
+        ]
+      },
+      {
+        "verb": "KNEEL",
+        "translation": "ARRODILLARSE",
+        "sentences": [
+          {
+            "type": "simple_past",
+            "sentence": "He __ down to propose.",
+            "answer": "knelt",
+            "explanation": "'knelt' is the simple past form of 'kneel'."
+          },
+          {
+            "type": "past_participle",
+            "sentence": "She has __ in prayer for hours.",
+            "answer": "knelt",
+            "explanation": "'knelt' is also the past participle, used with 'have' or 'has'."
+          }
+        ]
+      },
+      {
+        "verb": "SPEND",
+        "translation": "GASTAR / PASAR (TIEMPO)",
+        "sentences": [
+          {
+            "type": "simple_past",
+            "sentence": "We __ all our money on vacation.",
+            "answer": "spent",
+            "explanation": "'spent' is the simple past form of 'spend'."
+          },
+          {
+            "type": "past_participle",
+            "sentence": "I have __ too much time on this project.",
+            "answer": "spent",
+            "explanation": "'spent' is also the past participle, used with 'have' or 'has'."
+          }
+        ]
+      },
+      {
+        "verb": "BURST",
+        "translation": "ESTALLAR / REVENTAR",
+        "sentences": [
+          {
+            "type": "simple_past",
+            "sentence": "The balloon __ suddenly.",
+            "answer": "burst",
+            "explanation": "The simple past form 'burst' is the same as the present tense."
+          },
+          {
+            "type": "past_participle",
+            "sentence": "The pipes have __ because of the cold.",
+            "answer": "burst",
+            "explanation": "The past participle 'burst' is also the same, used with 'have' or 'has'."
+          }
+        ]
+      },
+      {
+        "verb": "KNOW",
+        "translation": "SABER / CONOCER",
+        "sentences": [
+          {
+            "type": "simple_past",
+            "sentence": "I __ the answer to the question.",
+            "answer": "knew",
+            "explanation": "'knew' is the simple past form of 'know'."
+          },
+          {
+            "type": "past_participle",
+            "sentence": "I have __ him for many years.",
+            "answer": "known",
+            "explanation": "Use 'known' with 'have' or 'has' to talk about familiarity with someone or something over time."
+          }
+        ]
+      },
+      {
+        "verb": "SPIT",
+        "translation": "ESCUPIR",
+        "sentences": [
+          {
+            "type": "simple_past",
+            "sentence": "He __ on the ground in disgust.",
+            "answer": "spat",
+            "explanation": "'spat' is the simple past form of 'spit'."
+          },
+          {
+            "type": "past_participle",
+            "sentence": "The baby has __ out his food.",
+            "answer": "spat",
+            "explanation": "'spat' is also the past participle, used with 'have' or 'has'."
+          }
+        ]
+      },
+      {
+        "verb": "BUY",
+        "translation": "COMPRAR",
+        "sentences": [
+          {
+            "type": "simple_past",
+            "sentence": "She __ a new car yesterday.",
+            "answer": "bought",
+            "explanation": "'bought' is the simple past form of 'buy'."
+          },
+          {
+            "type": "past_participle",
+            "sentence": "I have __ all the ingredients for the cake.",
+            "answer": "bought",
+            "explanation": "'bought' is also the past participle, used with 'have' or 'has'."
+          }
+        ]
+      },
+      {
+        "verb": "LAY",
+        "translation": "COLOCAR / PONER",
+        "sentences": [
+          {
+            "type": "simple_past",
+            "sentence": "She __ the book on the table.",
+            "answer": "laid",
+            "explanation": "'laid' is the simple past form of 'lay'."
+          },
+          {
+            "type": "past_participle",
+            "sentence": "The foundation has been __ for the new building.",
+            "answer": "laid",
+            "explanation": "'laid' is also the past participle, often used with 'has been'."
+          }
+        ]
+      },
+      {
+        "verb": "SPLIT",
+        "translation": "DIVIDIR / PARTIR",
+        "sentences": [
+          {
+            "type": "simple_past",
+            "sentence": "They __ the bill equally.",
+            "answer": "split",
+            "explanation": "The simple past form 'split' is the same as the present tense."
+          },
+          {
+            "type": "past_participle",
+            "sentence": "The group has __ into two factions.",
+            "answer": "split",
+            "explanation": "The past participle 'split' is also the same, used with 'have' or 'has'."
+          }
+        ]
+      },
+      {
+        "verb": "CATCH",
+        "translation": "ATRAPAR / CAPTURAR",
+        "sentences": [
+          {
+            "type": "simple_past",
+            "sentence": "The police __ the thief.",
+            "answer": "caught",
+            "explanation": "'caught' is the simple past form of 'catch'."
+          },
+          {
+            "type": "past_participle",
+            "sentence": "He has __ a cold.",
+            "answer": "caught",
+            "explanation": "'caught' is also the past participle, used with 'have' or 'has'."
+          }
+        ]
+      },
+      {
+        "verb": "LEAD",
+        "translation": "LIDERAR / CONDUCIR",
+        "sentences": [
+          {
+            "type": "simple_past",
+            "sentence": "She __ the team to victory.",
+            "answer": "led",
+            "explanation": "'led' is the simple past form of 'lead'."
+          },
+          {
+            "type": "past_participle",
+            "sentence": "He has __ a very interesting life.",
+            "answer": "led",
+            "explanation": "'led' is also the past participle, used with 'have' or 'has'."
+          }
+        ]
+      },
+      {
+        "verb": "SPREAD",
+        "translation": "EXTENDER / DIFUNDIR",
+        "sentences": [
+          {
+            "type": "simple_past",
+            "sentence": "The news __ quickly through the town.",
+            "answer": "spread",
+            "explanation": "The simple past form 'spread' is the same as the present tense."
+          },
+          {
+            "type": "past_participle",
+            "sentence": "The fire has __ to the next building.",
+            "answer": "spread",
+            "explanation": "The past participle 'spread' is also the same, used with 'have' or 'has'."
+          }
+        ]
+      },
+      {
+        "verb": "CHOOSE",
+        "translation": "ELEGIR / ESCOGER",
+        "sentences": [
+          {
+            "type": "simple_past",
+            "sentence": "She __ the red dress for the party.",
+            "answer": "chose",
+            "explanation": "'chose' is the simple past form of 'choose'."
+          },
+          {
+            "type": "past_participle",
+            "sentence": "He was __ as the team captain.",
+            "answer": "chosen",
+            "explanation": "Use 'chosen' as the past participle, often with 'was' or 'has been'."
+          }
+        ]
+      },
+      {
+        "verb": "LEAVE",
+        "translation": "DEJAR / IRSE",
+        "sentences": [
+          {
+            "type": "simple_past",
+            "sentence": "He __ the house early this morning.",
+            "answer": "left",
+            "explanation": "'left' is the simple past form of 'leave'."
+          },
+          {
+            "type": "past_participle",
+            "sentence": "They have already __ for the airport.",
+            "answer": "left",
+            "explanation": "'left' is also the past participle, used with 'have' or 'has'."
+          }
+        ]
+      },
+      {
+        "verb": "SPRING",
+        "translation": "SALTAR",
+        "sentences": [
+          {
+            "type": "simple_past",
+            "sentence": "The cat __ onto the table.",
+            "answer": "sprang",
+            "explanation": "'sprang' is the simple past form of 'spring'."
+          },
+          {
+            "type": "past_participle",
+            "sentence": "The trap has __.",
+            "answer": "sprung",
+            "explanation": "Use 'sprung' as the past participle, often with 'has'."
+          }
+        ]
+      },
+      {
+        "verb": "COME",
+        "translation": "VENIR",
+        "sentences": [
+          {
+            "type": "simple_past",
+            "sentence": "She __ to visit me yesterday.",
+            "answer": "came",
+            "explanation": "'came' is the simple past form of 'come'."
+          },
+          {
+            "type": "past_participle",
+            "sentence": "Has the mail __ yet?",
+            "answer": "come",
+            "explanation": "The past participle 'come' is the same as the present tense and is used with 'has' or 'have'."
+          }
+        ]
+      },
+      {
+        "verb": "LEND",
+        "translation": "PRESTAR",
+        "sentences": [
+          {
+            "type": "simple_past",
+            "sentence": "He __ me his car for the weekend.",
+            "answer": "lent",
+            "explanation": "'lent' is the simple past form of 'lend'."
+          },
+          {
+            "type": "past_participle",
+            "sentence": "I have __ him money several times.",
+            "answer": "lent",
+            "explanation": "'lent' is also the past participle, used with 'have' or 'has'."
+          }
+        ]
+      },
+      {
+        "verb": "STAND",
+        "translation": "ESTAR DE PIE / SOPORTAR",
+        "sentences": [
+          {
+            "type": "simple_past",
+            "sentence": "He __ in line for hours.",
+            "answer": "stood",
+            "explanation": "'stood' is the simple past form of 'stand'."
+          },
+          {
+            "type": "past_participle",
+            "sentence": "The statue has __ here for centuries.",
+            "answer": "stood",
+            "explanation": "'stood' is also the past participle, used with 'have' or 'has'."
+          }
+        ]
+      },
+      {
+        "verb": "COST",
+        "translation": "COSTAR",
+        "sentences": [
+          {
+            "type": "simple_past",
+            "sentence": "The ticket __ fifty dollars.",
+            "answer": "cost",
+            "explanation": "The simple past form 'cost' is the same as the present tense."
+          },
+          {
+            "type": "past_participle",
+            "sentence": "It has __ me a fortune to renovate this house.",
+            "answer": "cost",
+            "explanation": "The past participle 'cost' is also the same, used with 'have' or 'has'."
+          }
+        ]
+      },
+      {
+        "verb": "LET",
+        "translation": "DEJAR / PERMITIR",
+        "sentences": [
+          {
+            "type": "simple_past",
+            "sentence": "Her parents __ her go to the party.",
+            "answer": "let",
+            "explanation": "The simple past form 'let' is the same as the present tense."
+          },
+          {
+            "type": "past_participle",
+            "sentence": "I have __ him borrow my bike.",
+            "answer": "let",
+            "explanation": "The past participle 'let' is also the same, used with 'have' or 'has'."
+          }
+        ]
+      },
+      {
+        "verb": "STEAL",
+        "translation": "ROBAR",
+        "sentences": [
+          {
+            "type": "simple_past",
+            "sentence": "Someone __ my wallet.",
+            "answer": "stole",
+            "explanation": "'stole' is the simple past form of 'steal'."
+          },
+          {
+            "type": "past_participle",
+            "sentence": "My car has been __.",
+            "answer": "stolen",
+            "explanation": "Use 'stolen' as the past participle, often with 'has been'."
+          }
+        ]
+      },
+      {
+        "verb": "CREEP",
+        "translation": "ARRASTRARSE / ANDAR SIGILOSAMENTE",
+        "sentences": [
+          {
+            "type": "simple_past",
+            "sentence": "He __ quietly out of the room.",
+            "answer": "crept",
+            "explanation": "'crept' is the simple past form of 'creep'."
+          },
+          {
+            "type": "past_participle",
+            "sentence": "The fog has __ in from the sea.",
+            "answer": "crept",
+            "explanation": "'crept' is also the past participle, used with 'have' or 'has'."
+          }
+        ]
+      },
+      {
+        "verb": "LIE",
+        "translation": "ACOSTARSE / ESTAR SITUADO",
+        "sentences": [
+          {
+            "type": "simple_past",
+            "sentence": "The dog __ on the floor.",
+            "answer": "lay",
+            "explanation": "'lay' is the simple past form of 'lie' (to recline)."
+          },
+          {
+            "type": "past_participle",
+            "sentence": "He has __ in bed all day.",
+            "answer": "lain",
+            "explanation": "Use 'lain' as the past participle of 'lie' (to recline), used with 'have' or 'has'."
+          }
+        ]
+      },
+      {
+        "verb": "STICK",
+        "translation": "PEGAR / ADHERIR",
+        "sentences": [
+          {
+            "type": "simple_past",
+            "sentence": "The gum __ to my shoe.",
+            "answer": "stuck",
+            "explanation": "'stuck' is the simple past form of 'stick'."
+          },
+          {
+            "type": "past_participle",
+            "sentence": "I am __ in traffic.",
+            "answer": "stuck",
+            "explanation": "'stuck' is also the past participle, often used with 'am' or 'is'."
+          }
+        ]
+      },
+      {
+        "verb": "CUT",
+        "translation": "CORTAR",
+        "sentences": [
+          {
+            "type": "simple_past",
+            "sentence": "He __ his finger while cooking.",
+            "answer": "cut",
+            "explanation": "The simple past form 'cut' is the same as the present tense."
+          },
+          {
+            "type": "past_participle",
+            "sentence": "I have __ my hair.",
+            "answer": "cut",
+            "explanation": "The past participle 'cut' is also the same, used with 'have' or 'has'."
+          }
+        ]
+      },
+      {
+        "verb": "LIGHT",
+        "translation": "ENCENDER / ILUMINAR",
+        "sentences": [
+          {
+            "type": "simple_past",
+            "sentence": "She __ the candles on the cake.",
+            "answer": "lit",
+            "explanation": "'lit' is the simple past form of 'light'."
+          },
+          {
+            "type": "past_participle",
+            "sentence": "The room was __ by a single lamp.",
+            "answer": "lit",
+            "explanation": "'lit' is also the past participle, often used with 'was'."
+          }
+        ]
+      },
+      {
+        "verb": "STING",
+        "translation": "PICAR",
+        "sentences": [
+          {
+            "type": "simple_past",
+            "sentence": "A bee __ me on the arm.",
+            "answer": "stung",
+            "explanation": "'stung' is the simple past form of 'sting'."
+          },
+          {
+            "type": "past_participle",
+            "sentence": "He has been __ by a jellyfish.",
+            "answer": "stung",
+            "explanation": "'stung' is also the past participle, often used with 'has been'."
+          }
+        ]
+      },
+      {
+        "verb": "DEAL",
+        "translation": "TRATAR / NEGOCIAR",
+        "sentences": [
+          {
+            "type": "simple_past",
+            "sentence": "She __ with the problem effectively.",
+            "answer": "dealt",
+            "explanation": "'dealt' is the simple past form of 'deal'."
+          },
+          {
+            "type": "past_participle",
+            "sentence": "The cards have been __.",
+            "answer": "dealt",
+            "explanation": "'dealt' is also the past participle, often used with 'have been'."
+          }
+        ]
+      },
+      {
+        "verb": "LOSE",
+        "translation": "PERDER",
+        "sentences": [
+          {
+            "type": "simple_past",
+            "sentence": "I __ my keys yesterday.",
+            "answer": "lost",
+            "explanation": "'lost' is the simple past form of 'lose'."
+          },
+          {
+            "type": "past_participle",
+            "sentence": "She has __ a lot of weight.",
+            "answer": "lost",
+            "explanation": "'lost' is also the past participle, used with 'have' or 'has'."
+          }
+        ]
+      },
+      {
+        "verb": "STINK",
+        "translation": "APESTAR / OLER MAL",
+        "sentences": [
+          {
+            "type": "simple_past",
+            "sentence": "The garbage __ up the whole kitchen.",
+            "answer": "stank",
+            "explanation": "'stank' is the simple past form of 'stink'."
+          },
+          {
+            "type": "past_participle",
+            "sentence": "The room has __ of smoke for days.",
+            "answer": "stunk",
+            "explanation": "Use 'stunk' as the past participle, often with 'has'."
+          }
+        ]
+      },
+      {
+        "verb": "DIG",
+        "translation": "CAVAR",
+        "sentences": [
+          {
+            "type": "simple_past",
+            "sentence": "The dog __ a hole in the garden.",
+            "answer": "dug",
+            "explanation": "'dug' is the simple past form of 'dig'."
+          },
+          {
+            "type": "past_participle",
+            "sentence": "They have __ for treasure on this island.",
+            "answer": "dug",
+            "explanation": "'dug' is also the past participle, used with 'have' or 'has'."
+          }
+        ]
+      },
+      {
+        "verb": "MAKE",
+        "translation": "HACER / FABRICAR",
+        "sentences": [
+          {
+            "type": "simple_past",
+            "sentence": "She __ a delicious cake for the party.",
+            "answer": "made",
+            "explanation": "'made' is the simple past form of 'make'."
+          },
+          {
+            "type": "past_participle",
+            "sentence": "This car was __ in Germany.",
+            "answer": "made",
+            "explanation": "'made' is also the past participle, often used with 'was'."
+          }
+        ]
+      },
+      {
+        "verb": "STRIKE",
+        "translation": "GOLPEAR / ATACAR",
+        "sentences": [
+          {
+            "type": "simple_past",
+            "sentence": "Lightning __ the tree.",
+            "answer": "struck",
+            "explanation": "'struck' is the simple past form of 'strike'."
+          },
+          {
+            "type": "past_participle",
+            "sentence": "The workers have __ for better pay.",
+            "answer": "struck",
+            "explanation": "'struck' is also the past participle, used with 'have' or 'has'."
+          }
+        ]
+      },
+      {
+        "verb": "DO",
+        "translation": "HACER",
+        "sentences": [
+          {
+            "type": "simple_past",
+            "sentence": "I __ my homework last night.",
+            "answer": "did",
+            "explanation": "'did' is the simple past form of 'do'."
+          },
+          {
+            "type": "past_participle",
+            "sentence": "What have you __?",
+            "answer": "done",
+            "explanation": "Use 'done' as the past participle with 'have' or 'has'."
+          }
+        ]
+      },
+      {
+        "verb": "MEAN",
+        "translation": "SIGNIFICAR / QUERER DECIR",
+        "sentences": [
+          {
+            "type": "simple_past",
+            "sentence": "I didn't know what she __.",
+            "answer": "meant",
+            "explanation": "'meant' is the simple past form of 'mean'."
+          },
+          {
+            "type": "past_participle",
+            "sentence": "This gift was __ to be a surprise.",
+            "answer": "meant",
+            "explanation": "'meant' is also the past participle, often used with 'was'."
+          }
+        ]
+      },
+      {
+        "verb": "SWEAR",
+        "translation": "JURAR / MALDECIR",
+        "sentences": [
+          {
+            "type": "simple_past",
+            "sentence": "He __ to tell the truth.",
+            "answer": "swore",
+            "explanation": "'swore' is the simple past form of 'swear'."
+          },
+          {
+            "type": "past_participle",
+            "sentence": "She has __ that she will never return.",
+            "answer": "sworn",
+            "explanation": "Use 'sworn' as the past participle with 'have' or 'has'."
+          }
+        ]
+      },
+      {
+        "verb": "DRAW",
+        "translation": "DIBUJAR / SACAR",
+        "sentences": [
+          {
+            "type": "simple_past",
+            "sentence": "She __ a picture of a house.",
+            "answer": "drew",
+            "explanation": "'drew' is the simple past form of 'draw'."
+          },
+          {
+            "type": "past_participle",
+            "sentence": "The curtains were __ to block the sun.",
+            "answer": "drawn",
+            "explanation": "Use 'drawn' as the past participle, often with 'were'."
+          }
+        ]
+      },
+      {
+        "verb": "MEET",
+        "translation": "ENCONTRAR / CONOCER",
+        "sentences": [
+          {
+            "type": "simple_past",
+            "sentence": "We __ at a conference last year.",
+            "answer": "met",
+            "explanation": "'met' is the simple past form of 'meet'."
+          },
+          {
+            "type": "past_participle",
+            "sentence": "Have you __ my friend, John?",
+            "answer": "met",
+            "explanation": "'met' is also the past participle, used with 'have' or 'has'."
+          }
+        ]
+      },
+      {
+        "verb": "SWEEP",
+        "translation": "BARRER",
+        "sentences": [
+          {
+            "type": "simple_past",
+            "sentence": "She __ the floor this morning.",
+            "answer": "swept",
+            "explanation": "'swept' is the simple past form of 'sweep'."
+          },
+          {
+            "type": "past_participle",
+            "sentence": "The wind has __ the leaves away.",
+            "answer": "swept",
+            "explanation": "'swept' is also the past participle, used with 'have' or 'has'."
+          }
+        ]
+      },
+      {
+        "verb": "DRINK",
+        "translation": "BEBER",
+        "sentences": [
+          {
+            "type": "simple_past",
+            "sentence": "He __ too much coffee yesterday.",
+            "answer": "drank",
+            "explanation": "'drank' is the simple past form of 'drink'."
+          },
+          {
+            "type": "past_participle",
+            "sentence": "I have never __ tequila.",
+            "answer": "drunk",
+            "explanation": "Use 'drunk' as the past participle with 'have' or 'has'."
+          }
+        ]
+      },
+      {
+        "verb": "PAY",
+        "translation": "PAGAR",
+        "sentences": [
+          {
+            "type": "simple_past",
+            "sentence": "I __ the bill last night.",
+            "answer": "paid",
+            "explanation": "'paid' is the simple past form of 'pay'."
+          },
+          {
+            "type": "past_participle",
+            "sentence": "Have you __ for the tickets?",
+            "answer": "paid",
+            "explanation": "'paid' is also the past participle, used with 'have' or 'has'."
+          }
+        ]
+      },
+      {
+        "verb": "SWIM",
+        "translation": "NADAR",
+        "sentences": [
+          {
+            "type": "simple_past",
+            "sentence": "We __ in the ocean yesterday.",
+            "answer": "swam",
+            "explanation": "'swam' is the simple past form of 'swim'."
+          },
+          {
+            "type": "past_participle",
+            "sentence": "She has __ across the English Channel.",
+            "answer": "swum",
+            "explanation": "Use 'swum' as the past participle with 'have' or 'has'."
+          }
+        ]
+      },
+      {
+        "verb": "DRIVE",
+        "translation": "CONDUCIR / MANEJAR",
+        "sentences": [
+          {
+            "type": "simple_past",
+            "sentence": "He __ all the way to California.",
+            "answer": "drove",
+            "explanation": "'drove' is the simple past form of 'drive'."
+          },
+          {
+            "type": "past_participle",
+            "sentence": "I have never __ a truck before.",
+            "answer": "driven",
+            "explanation": "Use 'driven' as the past participle with 'have' or 'has'."
+          }
+        ]
+      },
+      {
+        "verb": "PUT",
+        "translation": "COLOCAR / PONER",
+        "sentences": [
+          {
+            "type": "simple_past",
+            "sentence": "She __ the keys on the table.",
+            "answer": "put",
+            "explanation": "The simple past form 'put' is the same as the present tense."
+          },
+          {
+            "type": "past_participle",
+            "sentence": "Where have you __ my glasses?",
+            "answer": "put",
+            "explanation": "The past participle 'put' is also the same, used with 'have' or 'has'."
+          }
+        ]
+      },
+      {
+        "verb": "SWING",
+        "translation": "BALANCEAR / COLUMPIAR",
+        "sentences": [
+          {
+            "type": "simple_past",
+            "sentence": "The children __ on the playground.",
+            "answer": "swung",
+            "explanation": "'swung' is the simple past form of 'swing'."
+          },
+          {
+            "type": "past_participle",
+            "sentence": "The door has __ open in the wind.",
+            "answer": "swung",
+            "explanation": "'swung' is also the past participle, used with 'have' or 'has'."
+          }
+        ]
+      },
+      {
+        "verb": "EAT",
+        "translation": "COMER",
+        "sentences": [
+          {
+            "type": "simple_past",
+            "sentence": "I __ a big breakfast this morning.",
+            "answer": "ate",
+            "explanation": "'ate' is the simple past form of 'eat'."
+          },
+          {
+            "type": "past_participle",
+            "sentence": "Have you ever __ sushi?",
+            "answer": "eaten",
+            "explanation": "Use 'eaten' as the past participle with 'have' or 'has'."
+          }
+        ]
+      },
+      {
+        "verb": "READ",
+        "translation": "LEER",
+        "sentences": [
+          {
+            "type": "simple_past",
+            "sentence": "I __ the entire book yesterday.",
+            "answer": "read",
+            "explanation": "The simple past form 'read' is spelled the same but pronounced 'red'."
+          },
+          {
+            "type": "past_participle",
+            "sentence": "I have __ all of his novels.",
+            "answer": "read",
+            "explanation": "The past participle 'read' is also spelled the same but pronounced 'red'."
+          }
+        ]
+      },
+      {
+        "verb": "TAKE",
+        "translation": "TOMAR / LLEVAR",
+        "sentences": [
+          {
+            "type": "simple_past",
+            "sentence": "He __ the bus to work.",
+            "answer": "took",
+            "explanation": "'took' is the simple past form of 'take'."
+          },
+          {
+            "type": "past_participle",
+            "sentence": "Someone has __ my pen.",
+            "answer": "taken",
+            "explanation": "Use 'taken' as the past participle with 'have' or 'has'."
+          }
+        ]
+      },
+      {
+        "verb": "FALL",
+        "translation": "CAER",
+        "sentences": [
+          {
+            "type": "simple_past",
+            "sentence": "The leaves __ from the trees in autumn.",
+            "answer": "fell",
+            "explanation": "'fell' is the simple past form of 'fall'."
+          },
+          {
+            "type": "past_participle",
+            "sentence": "He has __ in love with her.",
+            "answer": "fallen",
+            "explanation": "Use 'fallen' as the past participle with 'have' or 'has'."
+          }
+        ]
+      },
+      {
+        "verb": "RIDE",
+        "translation": "MONTAR / ANDAR EN",
+        "sentences": [
+          {
+            "type": "simple_past",
+            "sentence": "She __ her bike to school.",
+            "answer": "rode",
+            "explanation": "'rode' is the simple past form of 'ride'."
+          },
+          {
+            "type": "past_participle",
+            "sentence": "I have never __ a horse.",
+            "answer": "ridden",
+            "explanation": "Use 'ridden' as the past participle with 'have' or 'has'."
+          }
+        ]
+      },
+      {
+        "verb": "TEACH",
+        "translation": "ENSEÑAR",
+        "sentences": [
+          {
+            "type": "simple_past",
+            "sentence": "He __ English for ten years.",
+            "answer": "taught",
+            "explanation": "'taught' is the simple past form of 'teach'."
+          },
+          {
+            "type": "past_participle",
+            "sentence": "She has __ me everything I know.",
+            "answer": "taught",
+            "explanation": "'taught' is also the past participle, used with 'have' or 'has'."
+          }
+        ]
+      },
+      {
+        "verb": "FEED",
+        "translation": "ALIMENTAR",
+        "sentences": [
+          {
+            "type": "simple_past",
+            "sentence": "I __ the dog this morning.",
+            "answer": "fed",
+            "explanation": "'fed' is the simple past form of 'feed'."
+          },
+          {
+            "type": "past_participle",
+            "sentence": "Have you __ the cat yet?",
+            "answer": "fed",
+            "explanation": "'fed' is also the past participle, used with 'have' or 'has'."
+          }
+        ]
+      },
+      {
+        "verb": "RING",
+        "translation": "SONAR (TIMBRE) / LLAMAR",
+        "sentences": [
+          {
+            "type": "simple_past",
+            "sentence": "The phone __ while I was in the shower.",
+            "answer": "rang",
+            "explanation": "'rang' is the simple past form of 'ring'."
+          },
+          {
+            "type": "past_participle",
+            "sentence": "The bell has __ for the end of class.",
+            "answer": "rung",
+            "explanation": "Use 'rung' as the past participle with 'have' or 'has'."
+          }
+        ]
+      },
+      {
+        "verb": "TEAR",
+        "translation": "RASGAR / DESGARRAR",
+        "sentences": [
+          {
+            "type": "simple_past",
+            "sentence": "She __ the letter into pieces.",
+            "answer": "tore",
+            "explanation": "'tore' is the simple past form of 'tear'."
+          },
+          {
+            "type": "past_participle",
+            "sentence": "My shirt is __.",
+            "answer": "torn",
+            "explanation": "Use 'torn' as the past participle to describe the state of being ripped."
+          }
+        ]
+      },
+      {
+        "verb": "FEEL",
+        "translation": "SENTIR",
+        "sentences": [
+          {
+            "type": "simple_past",
+            "sentence": "I __ sick yesterday.",
+            "answer": "felt",
+            "explanation": "'felt' is the simple past form of 'feel'."
+          },
+          {
+            "type": "past_participle",
+            "sentence": "I have never __ so happy.",
+            "answer": "felt",
+            "explanation": "'felt' is also the past participle, used with 'have' or 'has'."
+          }
+        ]
+      },
+      {
+        "verb": "RISE",
+        "translation": "SUBIR / LEVANTARSE",
+        "sentences": [
+          {
+            "type": "simple_past",
+            "sentence": "The sun __ at 6 a.m. this morning.",
+            "answer": "rose",
+            "explanation": "'rose' is the simple past form of 'rise'."
+          },
+          {
+            "type": "past_participle",
+            "sentence": "Prices have __ sharply.",
+            "answer": "risen",
+            "explanation": "Use 'risen' as the past participle with 'have' or 'has'."
+          }
+        ]
+      },
+      {
+        "verb": "TELL",
+        "translation": "DECIR / CONTAR",
+        "sentences": [
+          {
+            "type": "simple_past",
+            "sentence": "He __ me a secret.",
+            "answer": "told",
+            "explanation": "'told' is the simple past form of 'tell'."
+          },
+          {
+            "type": "past_participle",
+            "sentence": "Have you __ him the news?",
+            "answer": "told",
+            "explanation": "'told' is also the past participle, used with 'have' or 'has'."
+          }
+        ]
+      },
+      {
+        "verb": "FIGHT",
+        "translation": "LUCHAR / PELEAR",
+        "sentences": [
+          {
+            "type": "simple_past",
+            "sentence": "They __ for their rights.",
+            "answer": "fought",
+            "explanation": "'fought' is the simple past form of 'fight'."
+          },
+          {
+            "type": "past_participle",
+            "sentence": "He has __ many battles.",
+            "answer": "fought",
+            "explanation": "'fought' is also the past participle, used with 'have' or 'has'."
+          }
+        ]
+      },
+      {
+        "verb": "RUN",
+        "translation": "CORRER",
+        "sentences": [
+          {
+            "type": "simple_past",
+            "sentence": "She __ a marathon last year.",
+            "answer": "ran",
+            "explanation": "'ran' is the simple past form of 'run'."
+          },
+          {
+            "type": "past_participle",
+            "sentence": "I have __ out of milk.",
+            "answer": "run",
+            "explanation": "The past participle 'run' is the same as the present tense and is used with 'have' or 'has'."
+          }
+        ]
+      },
+      {
+        "verb": "THINK",
+        "translation": "PENSAR / CREER",
+        "sentences": [
+          {
+            "type": "simple_past",
+            "sentence": "I __ it was a good idea.",
+            "answer": "thought",
+            "explanation": "'thought' is the simple past form of 'think'."
+          },
+          {
+            "type": "past_participle",
+            "sentence": "I have __ about it a lot.",
+            "answer": "thought",
+            "explanation": "'thought' is also the past participle, used with 'have' or 'has'."
+          }
+        ]
+      },
+      {
+        "verb": "FLEE",
+        "translation": "HUIR / ESCAPAR",
+        "sentences": [
+          {
+            "type": "simple_past",
+            "sentence": "The suspect __ the country.",
+            "answer": "fled",
+            "explanation": "'fled' is the simple past form of 'flee'."
+          },
+          {
+            "type": "past_participle",
+            "sentence": "They have __ from the war.",
+            "answer": "fled",
+            "explanation": "'fled' is also the past participle, used with 'have' or 'has'."
+          }
+        ]
+      },
+      {
+        "verb": "SEE",
+        "translation": "VER",
+        "sentences": [
+          {
+            "type": "simple_past",
+            "sentence": "I __ a movie last night.",
+            "answer": "saw",
+            "explanation": "'saw' is the simple past form of 'see'."
+          },
+          {
+            "type": "past_participle",
+            "sentence": "Have you ever __ a ghost?",
+            "answer": "seen",
+            "explanation": "Use 'seen' as the past participle with 'have' or 'has'."
+          }
+        ]
+      },
+      {
+        "verb": "UNDERSTAND",
+        "translation": "ENTENDER / COMPRENDER",
+        "sentences": [
+          {
+            "type": "simple_past",
+            "sentence": "He finally __ the problem.",
+            "answer": "understood",
+            "explanation": "'understood' is the simple past form of 'understand'."
+          },
+          {
+            "type": "past_participle",
+            "sentence": "I have never __ quantum physics.",
+            "answer": "understood",
+            "explanation": "'understood' is also the past participle, used with 'have' or 'has'."
+          }
+        ]
+      },
+      {
+        "verb": "FLY",
+        "translation": "VOLAR",
+        "sentences": [
+          {
+            "type": "simple_past",
+            "sentence": "The bird __ away.",
+            "answer": "flew",
+            "explanation": "'flew' is the simple past form of 'fly'."
+          },
+          {
+            "type": "past_participle",
+            "sentence": "I have __ in a helicopter.",
+            "answer": "flown",
+            "explanation": "Use 'flown' as the past participle with 'have' or 'has'."
+          }
+        ]
+      },
+      {
+        "verb": "SEEK",
+        "translation": "BUSCAR",
+        "sentences": [
+          {
+            "type": "simple_past",
+            "sentence": "They __ refuge from the storm.",
+            "answer": "sought",
+            "explanation": "'sought' is the simple past form of 'seek'."
+          },
+          {
+            "type": "past_participle",
+            "sentence": "He has always __ the truth.",
+            "answer": "sought",
+            "explanation": "'sought' is also the past participle, used with 'have' or 'has'."
+          }
+        ]
+      },
+      {
+        "verb": "WAKE",
+        "translation": "DESPERTAR",
+        "sentences": [
+          {
+            "type": "simple_past",
+            "sentence": "I __ up early this morning.",
+            "answer": "woke",
+            "explanation": "'woke' is the simple past form of 'wake'."
+          },
+          {
+            "type": "past_participle",
+            "sentence": "Have you __ the baby?",
+            "answer": "woken",
+            "explanation": "Use 'woken' as the past participle with 'have' or 'has'."
+          }
+        ]
+      },
+      {
+        "verb": "FORBID",
+        "translation": "PROHIBIR",
+        "sentences": [
+          {
+            "type": "simple_past",
+            "sentence": "His parents __ him to go out.",
+            "answer": "forbade",
+            "explanation": "'forbade' is the simple past form of 'forbid'."
+          },
+          {
+            "type": "past_participle",
+            "sentence": "It is __ to smoke in here.",
+            "answer": "forbidden",
+            "explanation": "Use 'forbidden' as the past participle, often as an adjective."
+          }
+        ]
+      },
+      {
+        "verb": "SELL",
+        "translation": "VENDER",
+        "sentences": [
+          {
+            "type": "simple_past",
+            "sentence": "He __ his car last week.",
+            "answer": "sold",
+            "explanation": "'sold' is the simple past form of 'sell'."
+          },
+          {
+            "type": "past_participle",
+            "sentence": "They have __ their house.",
+            "answer": "sold",
+            "explanation": "'sold' is also the past participle, used with 'have' or 'has'."
+          }
+        ]
+      },
+      {
+        "verb": "WEAR",
+        "translation": "VESTIR / USAR",
+        "sentences": [
+          {
+            "type": "simple_past",
+            "sentence": "She __ a beautiful dress to the party.",
+            "answer": "wore",
+            "explanation": "'wore' is the simple past form of 'wear'."
+          },
+          {
+            "type": "past_participle",
+            "sentence": "I have __ these shoes all day.",
+            "answer": "worn",
+            "explanation": "Use 'worn' as the past participle with 'have' or 'has'."
+          }
+        ]
+      },
+      {
+        "verb": "FORGET",
+        "translation": "OLVIDAR",
+        "sentences": [
+          {
+            "type": "simple_past",
+            "sentence": "I __ his name.",
+            "answer": "forgot",
+            "explanation": "'forgot' is the simple past form of 'forget'."
+          },
+          {
+            "type": "past_participle",
+            "sentence": "I think I have __ something.",
+            "answer": "forgotten",
+            "explanation": "Use 'forgotten' as the past participle with 'have' or 'has'."
+          }
+        ]
+      },
+      {
+        "verb": "SEND",
+        "translation": "ENVIAR / MANDAR",
+        "sentences": [
+          {
+            "type": "simple_past",
+            "sentence": "I __ you an email yesterday.",
+            "answer": "sent",
+            "explanation": "'sent' is the simple past form of 'send'."
+          },
+          {
+            "type": "past_participle",
+            "sentence": "Have you __ the package?",
+            "answer": "sent",
+            "explanation": "'sent' is also the past participle, used with 'have' or 'has'."
+          }
+        ]
+      },
+      {
+        "verb": "WEEP",
+        "translation": "LLORAR / LAMENTAR",
+        "sentences": [
+          {
+            "type": "simple_past",
+            "sentence": "She __ when she heard the sad news.",
+            "answer": "wept",
+            "explanation": "'wept' is the simple past form of 'weep'."
+          },
+          {
+            "type": "past_participle",
+            "sentence": "He has __ for his lost friend.",
+            "answer": "wept",
+            "explanation": "'wept' is also the past participle, used with 'have' or 'has'."
+          }
+        ]
+      },
+      {
+        "verb": "FORGIVE",
+        "translation": "PERDONAR",
+        "sentences": [
+          {
+            "type": "simple_past",
+            "sentence": "She __ him for his mistake.",
+            "answer": "forgave",
+            "explanation": "'forgave' is the simple past form of 'forgive'."
+          },
+          {
+            "type": "past_participle",
+            "sentence": "He has been __.",
+            "answer": "forgiven",
+            "explanation": "Use 'forgiven' as the past participle, often with 'has been'."
+          }
+        ]
+      },
+      {
+        "verb": "SET",
+        "translation": "PONER / AJUSTAR / CONFIGURAR",
+        "sentences": [
+          {
+            "type": "simple_past",
+            "sentence": "She __ the table for dinner.",
+            "answer": "set",
+            "explanation": "The simple past form 'set' is the same as the present tense."
+          },
+          {
+            "type": "past_participle",
+            "sentence": "The date for the wedding has been __.",
+            "answer": "set",
+            "explanation": "The past participle 'set' is also the same, often used with 'has been'."
+          }
+        ]
+      },
+      {
+        "verb": "WIN",
+        "translation": "VENCER / GANAR",
+        "sentences": [
+          {
+            "type": "simple_past",
+            "sentence": "Our team __ the game.",
+            "answer": "won",
+            "explanation": "'won' is the simple past form of 'win'."
+          },
+          {
+            "type": "past_participle",
+            "sentence": "She has __ many awards.",
+            "answer": "won",
+            "explanation": "'won' is also the past participle, used with 'have' or 'has'."
+          }
+        ]
+      },
+      {
+        "verb": "FREEZE",
+        "translation": "CONGELAR",
+        "sentences": [
+          {
+            "type": "simple_past",
+            "sentence": "The lake __ over last winter.",
+            "answer": "froze",
+            "explanation": "'froze' is the simple past form of 'freeze'."
+          },
+          {
+            "type": "past_participle",
+            "sentence": "The pipes have __.",
+            "answer": "frozen",
+            "explanation": "Use 'frozen' as the past participle with 'have' or 'has'."
+          }
+        ]
+      },
+      {
+        "verb": "SEW",
+        "translation": "COSER",
+        "sentences": [
+          {
+            "type": "simple_past",
+            "sentence": "She __ a button on my shirt.",
+            "answer": "sewed",
+            "explanation": "'sewed' is the simple past form of 'sew'."
+          },
+          {
+            "type": "past_participle",
+            "sentence": "This dress was __ by hand.",
+            "answer": "sewn",
+            "explanation": "Use 'sewn' as the past participle, often with 'was'."
+          }
+        ]
+      },
+      {
+        "verb": "WRITE",
+        "translation": "ESCRIBIR",
+        "sentences": [
+          {
+            "type": "simple_past",
+            "sentence": "He __ a letter to his parents.",
+            "answer": "wrote",
+            "explanation": "'wrote' is the simple past form of 'write'."
+          },
+          {
+            "type": "past_participle",
+            "sentence": "She has __ three books.",
+            "answer": "written",
+            "explanation": "Use 'written' as the past participle with 'have' or 'has'."
+          }
+        ]
+      },
+      {
+        "verb": "GET",
+        "translation": "OBTENER / CONSEGUIR",
+        "sentences": [
+          {
+            "type": "simple_past",
+            "sentence": "I __ a new job last month.",
+            "answer": "got",
+            "explanation": "'got' is the simple past form of 'get'."
+          },
+          {
+            "type": "past_participle",
+            "sentence": "Have you __ my message?",
+            "answer": "gotten",
+            "explanation": "Use 'gotten' as the past participle in American English; 'got' is used in British English."
+          }
+        ]
+      },
+      {
+        "verb": "SHAKE",
+        "translation": "SACUDIR / TEMBLAR",
+        "sentences": [
+          {
+            "type": "simple_past",
+            "sentence": "The earthquake __ the building.",
+            "answer": "shook",
+            "explanation": "'shook' is the simple past form of 'shake'."
+          },
+          {
+            "type": "past_participle",
+            "sentence": "He was badly __ by the news.",
+            "answer": "shaken",
+            "explanation": "Use 'shaken' as the past participle, often with 'was' or 'has been'."
+          }
+        ]
+      }
+    ]
+  }
+  

@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/irregular-verbs-game/static/css/main.535d4041.css",
+    "main.js": "/irregular-verbs-game/static/js/main.30a8ee28.js",
+    "static/media/gustavo.svg": "/irregular-verbs-game/static/media/gustavo.b5e36995245e84f04ec1ca8a9597cdfb.svg",
+    "index.html": "/irregular-verbs-game/index.html",
+    "main.535d4041.css.map": "/irregular-verbs-game/static/css/main.535d4041.css.map",
+    "main.30a8ee28.js.map": "/irregular-verbs-game/static/js/main.30a8ee28.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.535d4041.css",
+    "static/js/main.30a8ee28.js"
+  ]
+}
