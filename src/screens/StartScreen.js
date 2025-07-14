@@ -4,7 +4,7 @@ import Button from '../components/Button';
 import { ReactComponent as GustavoSVG } from '../assets/gustavo.svg';
 
 const WavingCharacter = () => (
- <GustavoSVG width="200" height="300" className="mb-4" />
+ <GustavoSVG width="200" height="260" className="mb-4" />
 );
 
 export default function StartScreen({ game, languageName, onSelectLanguage, selectedLanguage }) {
@@ -27,6 +27,19 @@ export default function StartScreen({ game, languageName, onSelectLanguage, sele
         onSelectLanguage={onSelectLanguage}
         selectedLanguage={selectedLanguage} 
       />
+      
+      <div className="flex-grow"></div>
+      
+      <div className="absolute bottom-5 text-gray-600">
+        made with ❤️ by <a 
+          href="https://github.com/gustavosett" 
+          target="_blank" 
+          rel="noopener noreferrer"
+          className="text-blue-600 underline hover:text-blue-800"
+        >
+          gustavosett
+        </a>
+      </div>
     </div>
   );
 }

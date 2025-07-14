@@ -2,11 +2,12 @@ import React from 'react';
 
 const availableLanguages = {
   'pt-br': 'Português (Brasil)',
+  'es-es': 'Español (España)',
 };
 
 export default function LanguageSelector({ onSelectLanguage, selectedLanguage }) {
   return (
-    <div className="absolute bottom-4 left-1/2 -translate-x-1/2 flex items-center space-x-4">
+    <div className="absolute bottom-20 left-1/2 -translate-x-1/2 flex items-center space-x-4">
       {Object.entries(availableLanguages).map(([code, name]) => (
         <button
           key={code}
