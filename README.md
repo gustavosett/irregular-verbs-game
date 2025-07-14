@@ -1,6 +1,11 @@
-# Irregular Verbs Game 🎮
+> ## I was searching for a simple game like duolingo to help me learn ONLY irregular verbs and I couldn't find one. So I decided to create my own.
 
-A simple React-based game to help learn English irregular verbs through timed challenges.
+A simple game like duolingo to help learn English irregular verbs through timed challenges.
+
+Play live at [gustavosett.dev](https://gustavosett.dev)
+
+
+![Irregular Verbs Game](./docs/imagefull.png)
 
 ## 🎯 How it Works
 
@@ -29,7 +34,3 @@ Currently supports:
 - React 19
 - Tailwind CSS
 - Create React App
-
----
-
-Play live at [gustavosett.dev](https://gustavosett.dev)
