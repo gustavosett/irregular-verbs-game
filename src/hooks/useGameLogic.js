@@ -1,7 +1,10 @@
 import { useState, useEffect, useCallback, useRef } from 'react';
 import { config } from '../config.js';
 
-const MAX_TIME = config.MAX_TIME; 
+const INITIAL_TIMER_INTERVAL = config.INITIAL_TIMER_INTERVAL;
+const SPEED_INCREASE_PER_CORRECT_ANSWER = config.SPEED_INCREASE_PER_CORRECT_ANSWER;
+const MIN_TIMER_INTERVAL = config.MIN_TIMER_INTERVAL;
+const MAX_TIME = config.MAX_TIME;
 const TIME_GAIN_ON_CORRECT = config.TIME_GAIN_ON_CORRECT;
 
 export const useGameLogic = (languageData) => {
@@ -20,6 +23,8 @@ export const useGameLogic = (languageData) => {
 
   const [timeRemaining, setTimeRemaining] = useState(MAX_TIME);
   const gameTimerRef = useRef(null);
+  
+  const [timerInterval, setTimerInterval] = useState(INITIAL_TIMER_INTERVAL);
 
   const [currentChallenge, setCurrentChallenge] = useState(null);
   const [usedChallenges, setUsedChallenges] = useState([]);
@@ -37,13 +42,13 @@ export const useGameLogic = (languageData) => {
       gameTimerRef.current = null;
     }
   };
-  
+
   const nextChallenge = useCallback(() => {
     if (!languageData || languageData.verbs.length === 0) {
-        console.error("Language data is not loaded or is empty.");
-        return;
+      console.error("Language data is not loaded or is empty.");
+      return;
     }
-      
+
     let localUsedChallenges = [...usedChallenges];
     if (localUsedChallenges.length >= totalChallenges) {
       localUsedChallenges = [];
@@ -58,7 +63,7 @@ export const useGameLogic = (languageData) => {
     } while (localUsedChallenges.includes(challengeId));
 
     setUsedChallenges([...localUsedChallenges, challengeId]);
-    
+
     const verbData = languageData.verbs[randomVerbIndex];
     const sentenceData = verbData.sentences[randomSentenceIndex];
 
@@ -81,6 +86,7 @@ export const useGameLogic = (languageData) => {
     setScore(0);
     setTimeRemaining(MAX_TIME);
     setUsedChallenges([]);
+    setTimerInterval(INITIAL_TIMER_INTERVAL);
     nextChallenge();
   };
 
@@ -88,9 +94,13 @@ export const useGameLogic = (languageData) => {
     setIsCorrect(true);
     setScore(prev => prev + config.SCORE_CORRECT);
     setTimeRemaining(prev => Math.min(MAX_TIME, prev + TIME_GAIN_ON_CORRECT));
-    
+
+    setTimerInterval(prevInterval =>
+      Math.max(MIN_TIMER_INTERVAL, prevInterval - SPEED_INCREASE_PER_CORRECT_ANSWER)
+    );
+
     setTimeout(() => {
-      if (gameActive && !isGameOver) { 
+      if (gameActive && !isGameOver) {
         nextChallenge();
       }
     }, config.SUCCESS_DELAY);
@@ -99,7 +109,7 @@ export const useGameLogic = (languageData) => {
   const handleIncorrectAnswer = () => {
     setIsWrong(true);
     setScore(prev => Math.max(0, prev - config.SCORE_INCORRECT));
-    setShowExplanation(false); 
+    setShowExplanation(false);
   };
 
   const handleInputChange = (newInput) => {
@@ -118,12 +128,12 @@ export const useGameLogic = (languageData) => {
     if (!gameActive || !currentChallenge || isCorrect || isGameOver) return;
     checkAnswer();
   };
-  
+
   const handleShowHint = () => {
-      if (!showHint) {
-          setScore(prev => Math.max(0, prev - config.SCORE_HINT));
-          setShowHint(true);
-      }
+    if (!showHint) {
+      setScore(prev => Math.max(0, prev - config.SCORE_HINT));
+      setShowHint(true);
+    }
   };
 
   const checkAnswer = useCallback(() => {
@@ -136,7 +146,7 @@ export const useGameLogic = (languageData) => {
       handleIncorrectAnswer();
     }
   }, [userInput, currentChallenge, isCorrect, isGameOver, handleCorrectAnswer, handleIncorrectAnswer]);
-  
+
   useEffect(() => {
     if (!gameActive || isGameOver) {
       stopGameTimer();
@@ -145,32 +155,32 @@ export const useGameLogic = (languageData) => {
 
     gameTimerRef.current = setInterval(() => {
       setTimeRemaining(prevTime => {
-        const newTime = prevTime - 50;
-        
+        const newTime = prevTime - INITIAL_TIMER_INTERVAL;
+
         if (newTime <= 0) {
           clearInterval(gameTimerRef.current);
           gameTimerRef.current = null;
-          
+
           setIsGameOver(true);
           setIsWrong(true);
           setShowExplanation(true);
-          
+
           if (score > highScore) {
             setHighScore(score);
             try {
-                localStorage.setItem(config.HIGH_SCORE_KEY, score.toString());
+              localStorage.setItem(config.HIGH_SCORE_KEY, score.toString());
             } catch (error) {
-                console.error("Could not save high score to localStorage", error);
+              console.error("Could not save high score to localStorage", error);
             }
           }
           return 0;
         }
         return newTime;
       });
-    }, 50); // Update every 50ms for smooth animation
+    }, timerInterval);
 
     return () => stopGameTimer();
-  }, [gameActive, isGameOver, score, highScore]);
+  }, [gameActive, isGameOver, score, highScore, timerInterval]);
 
   return {
     gameActive,
