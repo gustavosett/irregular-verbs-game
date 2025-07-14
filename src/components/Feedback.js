@@ -1,7 +1,31 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import Button from "./Button";
 
 export default function Feedback({ game }) {
+  const [bottomPosition, setBottomPosition] = useState(0);
+
+  useEffect(() => {
+    const handleViewportChange = () => {
+      if (window.visualViewport) {
+        const keyboardHeight = window.innerHeight - window.visualViewport.height;
+        setBottomPosition(keyboardHeight);
+      } else {
+        const isKeyboardOpen = window.innerHeight < 500;
+        setBottomPosition(isKeyboardOpen ? window.innerHeight * 0.3 : 0);
+      }
+    };
+
+    handleViewportChange();
+
+    if (window.visualViewport) {
+      window.visualViewport.addEventListener('resize', handleViewportChange);
+      return () => window.visualViewport.removeEventListener('resize', handleViewportChange);
+    } else {
+      window.addEventListener('resize', handleViewportChange);
+      return () => window.removeEventListener('resize', handleViewportChange);
+    }
+  }, []);
+
   if (!game.isCorrect && !game.isWrong && !game.isGameOver) {
     return null;
   }
@@ -13,25 +37,26 @@ export default function Feedback({ game }) {
 
   return (
     <div
-      className={`fixed bottom-0 left-0 right-0 w-full px-4 py-1 ${bgColor} ${textColor} animate-fade-in`}
+      className={`fixed left-0 right-0 w-full px-4 py-3 ${bgColor} ${textColor} animate-fade-in z-50 rounded-t-lg`}
+      style={{ bottom: `${bottomPosition}px` }}
     >
       {game.isGameOver && (
-        <div className="max-w-2xl mx-auto flex items-center justify-between gap-4">
-          <div>
-            <h3 className="text-3xl">Game Over!</h3>
-            <h6>{game.currentChallenge.explanation}</h6>
+        <div className="flex flex-col sm:flex-row items-center justify-between gap-4 max-w-2xl mx-auto">
+          <div className="text-center sm:text-left">
+            <h3 className="text-2xl sm:text-3xl">Game Over!</h3>
+            <h6 className="text-sm sm:text-base">{game.currentChallenge.explanation}</h6>
           </div>
           <Button
             onClick={() => game.setGameActive(false)}
-            className="max-w-xs !bg-white !text-duo-red !border-duo-red-dark"
+            className="w-full sm:w-auto sm:max-w-xs !bg-white !text-duo-red !border-duo-red-dark"
           >
             End Session
           </Button>
         </div>
       )}
       {!game.isGameOver && (
-        <div className="max-w-2xl mx-auto flex justify-center">
-          <h3 className="text-2xl font-bold">{message}</h3>
+        <div className="text-center max-w-2xl mx-auto">
+          <h3 className="text-xl sm:text-2xl font-bold">{message}</h3>
         </div>
       )}
     </div>

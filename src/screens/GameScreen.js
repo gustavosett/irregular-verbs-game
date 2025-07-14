@@ -9,14 +9,14 @@ export default function GameScreen({ game }) {
   const borderColor = game.isCorrect ? 'border-duo-green' : game.isWrong ? 'border-duo-red' : 'border-duo-gray-medium';
 
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen p-4 pt-10">
-      <div className="w-full max-w-2xl mx-auto">
+    <div className="flex flex-col items-center justify-start md:justify-center min-h-dvh sm:min-h-screen p-4 pt-10 md:pt-10 mobile-safe-area">
+      <div className="w-full max-w-sm sm:max-w-lg md:max-w-2xl lg:max-w-3xl xl:max-w-4xl mx-auto game-container">
         <TimeBar timeRemaining={game.timeRemaining} maxTime={game.MAX_TIME} />
         <ScoreBoard score={game.score} highScore={game.highScore} />
         
-        <div className={`p-8 rounded-2xl bg-gray-800 border-2 ${borderColor} transition-all duration-300`}>
+        <div className={`p-4 sm:p-6 md:p-8 rounded-2xl bg-gray-800 border-2 ${borderColor} transition-all duration-300`}>
           {!game.currentChallenge ? (
-            <div className="text-2xl text-duo-gray-dark">Loading...</div>
+            <div className="text-xl sm:text-2xl text-duo-gray-dark">Loading...</div>
           ) : (
             <ChallengeCard
               challenge={game.currentChallenge}
@@ -30,7 +30,7 @@ export default function GameScreen({ game }) {
           )}
         </div>
         
-        <div className="text-center mt-6 h-10">
+        <div className="text-center mt-4 sm:mt-6 h-8 sm:h-10 pb-4 md:pb-0">
           <Hint
             showHint={game.showHint}
             isCorrect={game.isCorrect}

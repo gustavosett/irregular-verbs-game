@@ -39,12 +39,12 @@ export default function SentenceInput({ sentence, userInput, answer, isWrong, is
   };
 
   return (
-    <h2 className={`text-2xl md:text-3xl ${isWrong ? 'animate-shake' : ''}`}>
+    <h2 className={`text-lg sm:text-xl md:text-2xl lg:text-3xl ${isWrong ? 'animate-shake' : ''}`}>
       {parts[0]}
       <span className="relative inline-block">
         <span
           style={inputStyle}
-          className={`inline-block text-center mx-2 pb-1 !text-gray-700 bg-duo-gray-light rounded-md border-b-4 outline-none transition-all duration-300 ${borderColor}`}
+          className={`inline-block text-center mx-1 sm:mx-2 pb-1 !text-gray-700 bg-duo-gray-light rounded-md border-b-4 outline-none transition-all duration-300 ${borderColor}`}
         >
           {userInput || ''}
           {!userInput && !isCorrect && <span className="animate-pulse !text-gray-700">|</span>}
