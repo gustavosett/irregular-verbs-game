@@ -132,6 +132,7 @@ export const useGameLogic = (languageData) => {
     if (userInput.trim().toLowerCase() === currentChallenge.answer.toLowerCase()) {
       handleCorrectAnswer();
     } else {
+      setUserInput('');
       handleIncorrectAnswer();
     }
   }, [userInput, currentChallenge, isCorrect, isGameOver, handleCorrectAnswer, handleIncorrectAnswer]);
