@@ -15,5 +15,5 @@ export const config = {
     SCORE_INCORRECT: getInt('REACT_APP_SCORE_INCORRECT', 3),
     SCORE_HINT: getInt('REACT_APP_SCORE_HINT', 5),
     HIGH_SCORE_KEY: getString('REACT_APP_HIGH_SCORE_KEY', 'verbGameHighScore'),
-    SUCCESS_DELAY: getInt('REACT_APP_SUCCESS_DELAY', 100),
+    SUCCESS_DELAY: getInt('REACT_APP_SUCCESS_DELAY', 800),
 };

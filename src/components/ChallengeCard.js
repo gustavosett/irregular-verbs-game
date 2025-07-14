@@ -1,7 +1,7 @@
 import React from 'react';
 import SentenceInput from './SentenceInput';
 
-export default function ChallengeCard({ challenge, userInput, isWrong, isCorrect }) {
+export default function ChallengeCard({ challenge, userInput, isWrong, isCorrect, onInputChange, onBackspace, onEnter }) {
   return (
     <>
       <h1 className="text-7xl md:text-9xl font-extrabold tracking-wider text-indigo-400">
@@ -14,6 +14,9 @@ export default function ChallengeCard({ challenge, userInput, isWrong, isCorrect
         answer={challenge.answer}
         isWrong={isWrong}
         isCorrect={isCorrect}
+        onInputChange={onInputChange}
+        onBackspace={onBackspace}
+        onEnter={onEnter}
       />
     </>
   );

@@ -23,6 +23,9 @@ export default function GameScreen({ game }) {
               userInput={game.userInput}
               isWrong={game.isWrong}
               isCorrect={game.isCorrect}
+              onInputChange={game.handleInputChange}
+              onBackspace={game.handleBackspace}
+              onEnter={game.handleEnter}
             />
           )}
         </div>

@@ -101,6 +101,23 @@ export const useGameLogic = (languageData) => {
     setScore(prev => Math.max(0, prev - config.SCORE_INCORRECT));
     setShowExplanation(false); 
   };
+
+  const handleInputChange = (newInput) => {
+    if (!gameActive || !currentChallenge || isCorrect || isGameOver) return;
+    setUserInput(newInput);
+    setIsWrong(false);
+  };
+
+  const handleBackspace = () => {
+    if (!gameActive || !currentChallenge || isCorrect || isGameOver) return;
+    setUserInput(prev => prev.slice(0, -1));
+    setIsWrong(false);
+  };
+
+  const handleEnter = () => {
+    if (!gameActive || !currentChallenge || isCorrect || isGameOver) return;
+    checkAnswer();
+  };
   
   const handleShowHint = () => {
       if (!showHint) {
@@ -162,28 +179,7 @@ export const useGameLogic = (languageData) => {
     return () => stopGameTimer();
   }, [gameActive, isGameOver, score, highScore]);
 
-  useEffect(() => {
-    const handleKeyDown = (e) => {
-      if (!gameActive || !currentChallenge || isCorrect || isGameOver) return;
-
-      if (e.key.match(/^[a-zA-Z]$/) || e.key === 'Backspace') {
-        e.preventDefault();
-      }
-      
-      if (e.key === 'Enter') {
-        checkAnswer();
-      } else if (e.key === 'Backspace') {
-        setUserInput(prev => prev.slice(0, -1));
-        setIsWrong(false);
-      } else if (e.key.length === 1 && e.key.match(/[a-z]/i)) {
-        setUserInput(prev => prev + e.key);
-        setIsWrong(false);
-      }
-    };
-
-    window.addEventListener('keydown', handleKeyDown);
-    return () => window.removeEventListener('keydown', handleKeyDown);
-  }, [gameActive, checkAnswer, currentChallenge, isCorrect, isGameOver]);
+  // Removed global keyboard event listener - now handled directly in SentenceInput component
   
   return {
     gameActive,
@@ -203,5 +199,8 @@ export const useGameLogic = (languageData) => {
     handleShowHint,
     setGameActive,
     setShowExplanation,
+    handleInputChange,
+    handleBackspace,
+    handleEnter,
   };
 };
