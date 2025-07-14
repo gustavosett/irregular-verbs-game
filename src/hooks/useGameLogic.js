@@ -20,7 +20,6 @@ export const useGameLogic = (languageData) => {
 
   const [timeRemaining, setTimeRemaining] = useState(MAX_TIME);
   const gameTimerRef = useRef(null);
-  const lastFrameTimeRef = useRef(null);
 
   const [currentChallenge, setCurrentChallenge] = useState(null);
   const [usedChallenges, setUsedChallenges] = useState([]);
@@ -34,7 +33,8 @@ export const useGameLogic = (languageData) => {
 
   const stopGameTimer = () => {
     if (gameTimerRef.current) {
-      cancelAnimationFrame(gameTimerRef.current);
+      clearInterval(gameTimerRef.current);
+      gameTimerRef.current = null;
     }
   };
   
@@ -143,17 +143,14 @@ export const useGameLogic = (languageData) => {
       return;
     }
 
-    const gameLoop = (now) => {
-      if (!lastFrameTimeRef.current) {
-        lastFrameTimeRef.current = now;
-      }
-      const deltaTime = now - lastFrameTimeRef.current;
-      lastFrameTimeRef.current = now;
-
+    gameTimerRef.current = setInterval(() => {
       setTimeRemaining(prevTime => {
-        const newTime = prevTime - deltaTime;
+        const newTime = prevTime - 50;
+        
         if (newTime <= 0) {
-          stopGameTimer();
+          clearInterval(gameTimerRef.current);
+          gameTimerRef.current = null;
+          
           setIsGameOver(true);
           setIsWrong(true);
           setShowExplanation(true);
@@ -170,18 +167,11 @@ export const useGameLogic = (languageData) => {
         }
         return newTime;
       });
-
-      gameTimerRef.current = requestAnimationFrame(gameLoop);
-    };
-
-    lastFrameTimeRef.current = performance.now();
-    gameTimerRef.current = requestAnimationFrame(gameLoop);
+    }, 50); // Update every 50ms for smooth animation
 
     return () => stopGameTimer();
   }, [gameActive, isGameOver, score, highScore]);
 
-  // Removed global keyboard event listener - now handled directly in SentenceInput component
-  
   return {
     gameActive,
     isGameOver,

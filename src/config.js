@@ -9,8 +9,8 @@ const getString = (key, fallback) => {
 };
 
 export const config = {
-    MAX_TIME: getInt('REACT_APP_MAX_TIME', 100000),
-    TIME_GAIN_ON_CORRECT: getInt('REACT_APP_TIME_GAIN_ON_CORRECT', 10000),
+    MAX_TIME: getInt('REACT_APP_MAX_TIME', 40000),
+    TIME_GAIN_ON_CORRECT: getInt('REACT_APP_TIME_GAIN_ON_CORRECT', 8000),
     SCORE_CORRECT: getInt('REACT_APP_SCORE_CORRECT', 5),
     SCORE_INCORRECT: getInt('REACT_APP_SCORE_INCORRECT', 3),
     SCORE_HINT: getInt('REACT_APP_SCORE_HINT', 5),
