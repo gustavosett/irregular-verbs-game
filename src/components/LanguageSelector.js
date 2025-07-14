@@ -1,8 +1,5 @@
-// src/components/LanguageSelector.js
 import React from 'react';
 
-// For now, we hardcode the available languages.
-// In the future, you could fetch this list from a config file.
 const availableLanguages = {
   'pt-br': 'Português (Brasil)',
 };

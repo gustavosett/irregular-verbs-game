@@ -1,4 +1,3 @@
-// src/components/ScoreBoard.js
 import React from 'react';
 
 export default function ScoreBoard({ score, highScore }) {

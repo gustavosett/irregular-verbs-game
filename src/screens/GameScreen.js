@@ -1,7 +1,6 @@
-// src/screens/GameScreen.js
 import React from 'react';
 import TimeBar from '../components/TimeBar';
-import ScoreBoard from '../components/ScoreBoard'; // We'll keep this simple
+import ScoreBoard from '../components/ScoreBoard';
 import ChallengeCard from '../components/ChallengeCard';
 import Hint from '../components/Hint';
 import Feedback from '../components/Feedback';
@@ -38,7 +37,6 @@ export default function GameScreen({ game }) {
         </div>
       </div>
       
-      {/* The feedback banner will appear at the bottom */}
       {(game.isCorrect || game.isWrong) && <Feedback game={game} />}
     </div>
   );

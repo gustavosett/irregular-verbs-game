@@ -1,9 +1,8 @@
-// src/components/Hint.js
 import React from 'react';
 
 export default function Hint({ showHint, isCorrect, isWrong, isGameOver, onShowHint, answer }) {
   if (isCorrect || isWrong || isGameOver) {
-    return null; // Hide hint if the question is answered or the game is over
+    return null;
   }
 
   return (

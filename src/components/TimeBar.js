@@ -1,4 +1,3 @@
-// src/components/TimeBar.js
 import React from 'react';
 
 export default function TimeBar({ timeRemaining, maxTime }) {

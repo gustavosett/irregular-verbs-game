@@ -1,9 +1,7 @@
-// src/screens/StartScreen.js
 import React from 'react';
 import LanguageSelector from '../components/LanguageSelector';
-import Button from '../components/Button'; // Import the new button
+import Button from '../components/Button';
 
-// A simple SVG character for decoration
 const WavingCharacter = () => (
   <svg width="150" height="150" viewBox="0 0 100 100" className="mb-8">
     <circle cx="50" cy="50" r="40" fill="#1cb0f6" />
@@ -17,7 +15,6 @@ const WavingCharacter = () => (
 export default function StartScreen({ game, languageName, onSelectLanguage, selectedLanguage }) {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen p-4 text-center">
-      {/* <WavingCharacter /> */}
       <h1 className="text-4xl font-extrabold">Irregular Verb Game</h1>
       <p className="mt-2 text-xl text-duo-gray-dark">{languageName}</p>
       

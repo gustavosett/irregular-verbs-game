@@ -1,6 +1,5 @@
-// src/components/Feedback.js
 import React from "react";
-import Button from "./Button"; // Import the new button
+import Button from "./Button";
 
 export default function Feedback({ game }) {
   if (!game.isCorrect && !game.isWrong && !game.isGameOver) {

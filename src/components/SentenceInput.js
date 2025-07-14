@@ -1,4 +1,3 @@
-// src/components/SentenceInput.js
 import React from 'react';
 
 export default function SentenceInput({ sentence, userInput, answer, isWrong, isCorrect }) {
